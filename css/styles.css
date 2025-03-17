@@ -1,7 +1,7 @@
 body{
 padding: 0%;
 margin: 0%;
-background-color: rgb(255, 123, 0);
+background-color: aqua;
 }
 
 #menu{
@@ -26,7 +26,15 @@ background-color: rgb(255, 123, 0);
 }
 
 
-
+#form-comment {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin:10px;
+    width: 300px;
+    height: 30px;
+}
 #form input{
     width: 300px;
     height: 30px;
