@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ramen Rating App</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <script src="./index.js"></script>
+    <div id="menu">
+        <img src="images/gyukotsu.jpg" alt="image 1">
+        <img src="images/kojiro.jpg" alt="image 2">
+        <img src="images/naruto.jpg" alt="image 3">
+        <img src="images/nirvana.jpg" alt="image 4">
+    </div>
+    <div id="detail"  >
+        <img id="detail-image" src="images/gyukotsu.jpg" alt="image 1">
+        <h2 id="name"></h2>
+        <h3 id="restaurant"></h3>
+        <p id="rating"></p>
+        <p id="comment"></p>
+    </div>
+    <form id="form">
+        <input type="text" id="form-name" placeholder="Name" required>
+        <input type="text" id="form-restaurant" placeholder="Restaurant" required>
+        <input type="text" id="form-image" placeholder="Image URL" required>
+        <input type="text" id="form-rating" placeholder="Rating" required>
+        <textarea id="form-comment" placeholder="Comment" required></textarea>
+        <button type="submit">Add Ramen</button>
+    </form>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
