@@ -3,8 +3,7 @@ const ramens = [
     { id: 2, name: "Miso Ramen", restaurant: "Menya", image: "./images/kojiro.jpg", rating: 4, comment: "Very flavorful!" },
     { id: 3, name: "Tonkotsu Ramen", restaurant: "Ramen-ya", image: "./images/naruto.jpg" ,rating: 3, comment: "Good but too salty." },
     { id: 4, name: "Gyukotsu Ramen", restaurant: "Gyukotsu", image: "./images/gyukotsu.jpg" ,rating: 5, comment: "Best ramen in town!" },
-
-
+    { id: 5, name: "Shio Ramen", restaurant: "Shio", image: "./images/nirvana.jpg", rating: 4, comment: "Very light and refreshing!" }
  ];
 
 function displayRamens() {
