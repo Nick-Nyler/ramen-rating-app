@@ -1,5 +1,5 @@
 body{
-padding: 0%;
+padding: 0.5rem;
 margin: 0%;
 background-color: aqua;
 }
@@ -30,7 +30,7 @@ header{
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    margin:auto;
+    margin: auto;
     width: 20%;
     height: 100%;
 }
