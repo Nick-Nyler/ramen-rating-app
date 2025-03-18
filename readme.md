@@ -19,20 +19,7 @@ This application allows users to rate and record their experiences with differen
 * **Rating System:**
     * The application contains a numerical rating system.
 
-## Potential Additional Features
 
-* **Image Display:**
-    * Displays the ramen image based on the provided URL.
-* **Rating Visualization:**
-    * Displays the numerical rating in a visually clear way (e.g., stars, a bar).
-* **Data Editing/Deletion:**
-    * Allows users to edit or delete previously entered ramen entries.
-* **Search/Filtering:**
-    * Provides functionality to search for or filter ramen entries based on criteria (e.g., name, restaurant, rating).
-* **User Accounts:**
-    * Allows users to create accounts and save their ramen ratings.
-* **Responsive Design:**
-    * Ensures the application works well on different screen sizes.
 
 
 
